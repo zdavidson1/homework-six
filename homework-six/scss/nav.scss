@@ -1,0 +1,39 @@
+nav {
+   
+    height: 92.5px;
+    width: 70%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 4px solid black;
+    
+   
+
+    .logo{
+        width: 92px;
+        height: 42px;
+        background-image: url(../images/logos/logo-black.png);
+
+    }
+
+    .links {
+        height: 42px;
+        width: 490px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
